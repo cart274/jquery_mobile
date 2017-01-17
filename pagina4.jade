@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	link(href="css/jquery.mobile-1.4.5.min.css",rel="stylesheet")
+	link(href="css/style.css",rel="stylesheet")
+	script(src="js/jquery-latest.min.js")
+	script(src="js/jquery.mobile-1.4.5.min.js")
+	meta(name="viewport",content="width=device-width, initial-scale=1.0")
+	title Prueba Jquery mobile
+	
+body
+	#pagina1(data-role="page")
+		div(data-role="header" data-theme="b") 
+			h1 Página 4
+			div(data-role="navbar")
+				ul
+					li
+						a(href="index.html") Item 1
+					li
+						a(href="pagina2.html") Item 2
+					li
+						a(href="pagina3.html") Item 3
+					li
+						a(href="pagina4.html",class="ui-btn-active") Item 4
+		div(data-role="content")
+			a(data-role="button",data-theme="a",data-inline="true",href="index.html",data-rel="back") pagina1.html
+			p  Pagina 2
+		div(data-role="footer",data-theme="a",class="ui-bar",data-position="fixed",data-id="footer_fijo")
+			h2 footer
+			div(data-role="controlgroup",data-type="horizontal")
+				a(href="confirmacion.html",data-role="button",data-rel="dialog",data-transition="flip",data-icon="delete") Eliminar
+				a(href="confirmacion.html",data-role="button",data-rel="dialog",data-transition="flip",data-icon="plus") Agregar
+				a(href="confirmacion.html",data-role="button",data-rel="dialog",data-transition="flip") Editar
+
+
+
+	

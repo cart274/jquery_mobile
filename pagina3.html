@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="UTF-8"/>
+  <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script src="js/jquery-latest.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prueba Jquery mobile</title>
+</head>
+<body>
+  <div id="pagina1" data-role="page">
+    <div data-role="header" data-theme="b"> 
+      <h1>Página 3</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="index.html">Item 1</a></li>
+          <li><a href="pagina2.html">Item 2</a></li>
+          <li><a href="pagina3.html" class="ui-btn-active">Item 3</a></li>
+          <li><a href="pagina4.html">Item 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div data-role="content">
+      <ul data-role="listview" data-divider-theme="b" data-filter="true" data-filter-placeholder="Buscar">
+        <li><a href="">Mi lista numero 1</a>
+          <ul>
+            <li>Mandarinas</li>
+            <li>Manzanas</li>
+            <li>Peras</li>
+          </ul>
+        </li>
+        <li>Mi lista numero 2
+          <ul>
+            <li><a href="">Carros</a></li>
+            <li><a href="">casas</a></li>
+          </ul>
+        </li>
+        <li data-role="list-divider"><a href="">Mi lista numero 3</a></li>
+        <li><a href=""><img src="img/usflag.jpg" class="ui-li-icon"/>'Mi lista numero 4'</a></li>
+        <li><a href="">Mensajes<span class="ui-li-count">23</span></a></li>
+        <li><a href="">Mi lista numero 6</a></li>
+        <li><a href="">Mi lista numero 7</a></li>
+        <li><a href="">Mi lista numero 8</a></li>
+      </ul>
+    </div>
+    <div data-role="footer" data-theme="a" data-position="fixed" data-id="footer_fijo" class="ui-bar">
+      <h2>footer</h2>
+      <div data-role="controlgroup" data-type="horizontal"><a href="confirmacion.html" data-role="button" data-rel="dialog" data-transition="flip" data-icon="delete">Eliminar</a><a href="confirmacion.html" data-role="button" data-rel="dialog" data-transition="flip" data-icon="plus">Agregar</a><a href="confirmacion.html" data-role="button" data-rel="dialog" data-transition="flip">Editar</a></div>
+    </div>
+  </div>
+</body>
